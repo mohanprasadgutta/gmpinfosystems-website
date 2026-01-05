@@ -1,1 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: #0066aa;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.tagline {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color: #0066aa;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
 
