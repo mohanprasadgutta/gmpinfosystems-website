@@ -270,6 +270,20 @@ footer {
     opacity: 0.9;
 }
 
+.tech-desc {
+    font-size: 0.95em;
+    color: #555;
+    margin-bottom: 14px;
+}
+
+.tech-footnote {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #555;
+    max-width: 800px;
+}
+
+
 
 .brand a {
     display: inline-block;
@@ -277,4 +291,84 @@ footer {
 
 .brand a:hover {
     opacity: 0.9;
+}
+
+/* ================= INDUSTRIES SERVED ================= */
+
+#industries {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.industries-subtitle {
+    max-width: 750px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.industries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.industry-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    color: #004f85;
+}
+
+.industry-item p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* ================= SHARED SECTION STYLES ================= */
+
+.section-subtitle {
+    max-width: 750px;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+/* ================= ENGAGEMENT MODELS ================= */
+
+.engagement-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.engagement-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    color: #004f85;
+}
+
+.engagement-item p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #555;
+}
+
+/* ================= WHY GMP ================= */
+
+.why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+}
+
+.why-item h3 {
+    margin-bottom: 10px;
+    font-size: 1.05em;
+    color: #004f85;
+}
+
+.why-item p {
+    margin: 0;
+    font-size: 0.95em;
+    color: #555;
 }
